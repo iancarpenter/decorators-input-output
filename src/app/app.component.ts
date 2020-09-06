@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'decorators-input-output';
+  currentItem = 'Television and speaker stands';
 }
