@@ -1,7 +1,11 @@
-<app-input [item]="currentItem"></app-input>
+<div class="parent">
+    <p class="heading">This is the parent template</p>
+    <app-input [item]="currentItem"></app-input>
 
-<app-output (newItemEvent)="addItem($event)"></app-output>
+    <app-output (newItemEvent)="addItem($event)"></app-output>
+    
+    <ul>
+        <li *ngFor="let item of items"> {{ item }}</li>
+    </ul>
+</div>
 
-<ul>
-    <li *ngFor="let item of items"> {{ item }}</li>
-</ul>
