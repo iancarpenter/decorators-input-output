@@ -1,1 +1,5 @@
-<p>output works!</p>
+<div class="outputForm">    
+    <p id="heading">This is the output template</p>
+    <label>Add an item: <input #newItem></label>
+    <button (click)="addNewItem(newItem.value)">Add to parent's list</button>
+</div>
