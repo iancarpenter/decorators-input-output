@@ -1,0 +1,11 @@
+#heading {
+    line-height: 30px;
+}
+
+.outputForm {
+    border-style: double;
+    width: 600px;
+    height: 150px;
+    padding: 15px;
+    box-sizing: border-box;
+}
